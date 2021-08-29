@@ -1,4 +1,4 @@
-![Live Pass Example](./img/live-pass.png)
+![Live Pass Example](/.img/live-pass.png)
 
 # Spacecraft Pass Timer
 
