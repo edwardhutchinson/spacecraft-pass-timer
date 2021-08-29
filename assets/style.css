@@ -1,0 +1,76 @@
+body {
+    font-family: Sans-serif;
+    color: white;
+    background-color: black;
+}
+
+H1 {
+    white-space:pre;
+}
+
+P {
+    font-size: x-small;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.topbar {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topbarWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+#logo {
+    height: 5vh;
+}
+
+.spacecraftDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timeBar {
+    display: flex;
+    justify-content: center;
+}
+
+.mapWrapper {
+    margin-top: 2%;
+}
+
+.first-page {
+    background-color: black;
+    color: white;
+}
+.previous-page {
+    background-color: black;
+    color: white;
+}
+.next-page {
+    background-color: black;
+    color: white;
+}
+.last-page {
+    background-color: black;
+    color: white;
+}
+
+button:disabled {
+    color: #292929;
+}
+
+input[type=text] {
+    border-radius: 5px;
+  }
